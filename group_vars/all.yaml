@@ -1,0 +1,11 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-dev.gaddam.online
+REDIS_HOST: redis-dev.gaddam.online
+USER_HOST: user-dev.gaddam.online
+CATALOGUE_HOST: catalogue-dev.gaddam.online
+CART_HOST: cart-dev.gaddam.online
+MYSQL_HOST: mysql-dev.gaddam.online
+SHIPPING_HOST: shipping-dev.gaddam.online
+PAYMENT_HOST: payment-dev.gaddam.online
+RABBITMQ_HOST: rabbitmq-dev.gaddam.online
