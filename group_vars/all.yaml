@@ -7,5 +7,5 @@ CATALOGUE_HOST: catalogue-"{{ env }}".gaddam.online
 CART_HOST: cart-"{{ env }}".gaddam.online
 MYSQL_HOST: mysql-"{{ env }}".gaddam.online
 SHIPPING_HOST: shipping-"{{ env }}".gaddam.online
-PAYMENT_HOST: payment-dev.gaddam.online
-RABBITMQ_HOST: rabbitmq-dev.gaddam.online
+PAYMENT_HOST: payment-"{{ env }}".gaddam.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".gaddam.online
