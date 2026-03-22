@@ -1,5 +1,5 @@
 - name: restart "{{ component }}"
   ansible.builtin.service:
      name: "{{ component }}"
-     start: restarted
-     
+     #start: restarted
+     state: restarted
