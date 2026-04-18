@@ -4,9 +4,14 @@ MONGODB_HOST: mongodb-{{ env }}.gaddam.online
 REDIS_HOST: redis-{{ env }}.gaddam.online
 MYSQL_HOST: mysql-{{ env }}.gaddam.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.gaddam.online
-USER_HOST: user.backend_alb-{{ env }}.gaddam.online
-CATALOGUE_HOST: catalogue.backend_alb-{{ env }}.gaddam.online
-CART_HOST: cart.backend_alb-{{ env }}.gaddam.online
-SHIPPING_HOST: shipping.backend_alb-{{ env }}.gaddam.online
-PAYMENT_HOST: payment.backend_alb-{{ env }}.gaddam.online
+# USER_HOST: user.backend_alb-{{ env }}.gaddam.online
+# CATALOGUE_HOST: catalogue.backend_alb-{{ env }}.gaddam.online
+# CART_HOST: cart.backend_alb-{{ env }}.gaddam.online
+# SHIPPING_HOST: shipping.backend_alb-{{ env }}.gaddam.online
+# PAYMENT_HOST: payment.backend_alb-{{ env }}.gaddam.online
+USER_HOST: user.backend-alb-{{ env }}.gaddam.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.gaddam.online
+CART_HOST: cart.backend-alb-{{ env }}.gaddam.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.gaddam.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.gaddam.online
 app_version: v3

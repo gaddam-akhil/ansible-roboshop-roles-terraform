@@ -14,12 +14,12 @@
 
 - name: remove entire directory
   ansible.builtin.file:
-      path: usr/share/nginx/html
+      path: /usr/share/nginx/html
       state: absent        
 
 - name: create html directory
   ansible.builtin.file:
-        path: usr/share/nginx/html
+        path: /usr/share/nginx/html
         state: directory   
 
 - name: download frontend
