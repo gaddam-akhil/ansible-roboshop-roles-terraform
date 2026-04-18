@@ -42,9 +42,9 @@
 - name: copy nginx.conf file  
   throttle: 2
   ansible.builtin.template:
-      src: nginx.conf
-      dest: /etc/nginx/nginx.conf
-  notify: restart and enable nginx 
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+  notify: restart nginx 
 
 
       

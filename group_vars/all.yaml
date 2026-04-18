@@ -7,7 +7,6 @@ RABBITMQ_HOST: rabbitmq-{{ env }}.gaddam.online
 USER_HOST: user.backend_alb-{{ env }}.gaddam.online
 CATALOGUE_HOST: catalogue.backend_alb-{{ env }}.gaddam.online
 CART_HOST: cart.backend_alb-{{ env }}.gaddam.online
-#MYSQL_HOST: mysql-{{ env }}.gaddam.online
 SHIPPING_HOST: shipping.backend_alb-{{ env }}.gaddam.online
 PAYMENT_HOST: payment.backend_alb-{{ env }}.gaddam.online
-#RABBITMQ_HOST: rabbitmq-{{ env }}.gaddam.online
+app_version: v3
